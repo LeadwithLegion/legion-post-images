@@ -1,0 +1,135 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#030B1E"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0B1C2E"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#9CA3AF"/>
+      <stop offset="0.2" stop-color="#dbeafe"/>
+      <stop offset="0.55" stop-color="#7dd3fc"/>
+      <stop offset="1" stop-color="#fca5a5"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="1200" fill="url(#bg)"/>
+
+  <!-- stage / background image area -->
+  <rect x="0" y="0" width="1200" height="1200" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="1200" fill="url(#panel)" opacity="0.44"/>
+
+  <!-- left background screens -->
+  <rect x="16" y="48" width="128" height="150" rx="10" fill="#0B1220" opacity="0.75"/>
+  <rect x="18" y="92" width="120" height="104" rx="8" fill="#0F172A" opacity="0.8"/>
+  <rect x="18" y="220" width="196" height="28" rx="8" fill="#0F172A" opacity="0.7"/>
+
+  <!-- broad dark stage/screen region -->
+  <rect x="0" y="0" width="1200" height="1200" fill="transparent"/>
+  <rect x="200" y="0" width="700" height="460" fill="#0B1323" opacity="0.85"/>
+
+  <!-- giant projected portrait panel -->
+  <rect x="320" y="50" width="560" height="430" fill="#0b1020" opacity="0.9"/>
+  <rect x="330" y="65" width="540" height="400" fill="#0A1731" opacity="0.95"/>
+
+  <!-- military portrait approximation -->
+  <g opacity="0.85">
+    <rect x="332" y="85" width="534" height="360" fill="#0B1425"/>
+    <!-- flag -->
+    <path d="M365 90L524 90L524 210L365 210V90Z" fill="#F7F7F7"/>
+    <path d="M366 90L491 90L491 160L366 160V90Z" fill="#B91C1C"/>
+    <path d="M365 165L520 165L520 210L365 210V165Z" fill="#0F172A"/>
+    <circle cx="416" cy="148" r="14" fill="#fff"/>
+    <path d="M432 138L521 138L521 193L432 193V138Z" fill="#B91C1C"/>
+    <path d="M520 90L535 90L535 210L520 210V90Z" fill="#F8FAFC"/>
+    <rect x="520" y="130" width="8" height="80" fill="#F8FAFC"/>
+    <path d="M332 278H866V442H332V278Z" fill="#0B1D41" opacity="0.95"/>
+    <!-- person -->
+    <g transform="translate(0,-10)">
+      <path d="M585 190C620 190 652 216 652 248V304C652 323 640 338 622 347L598 359C561 381 515 375 480 348L451 323C440 314 433 299 433 283V258C433 223 461 194 496 194H585Z" fill="#F1F5F9"/>
+      <path d="M514 224C540 224 562 246 562 272V290H466V274C466 247 488 224 514 224Z" fill="#1E293B"/>
+      <path d="M514 214C532 214 547 228 547 247C547 264 532 278 514 278C496 278 481 264 481 247C481 228 496 214 514 214Z" fill="#F1F5F9"/>
+      <rect x="468" y="187" width="92" height="40" rx="18" fill="#D1D5DB"/>
+      <path d="M510 188L553 150L594 176L568 218L510 188Z" fill="#1E293B"/>
+      <path d="M510 188L470 150L431 176L454 216L510 188Z" fill="#1E293B"/>
+      <path d="M488 300C516 298 530 306 551 314L594 332L578 400H500L463 327L488 300Z" fill="#1D4ED8"/>
+      <path d="M522 312L608 310L641 399H545L522 312Z" fill="#1E3A8A"/>
+      <path d="M519 314L474 399H432L480 313L519 314Z" fill="#1E3A8A"/>
+      <path d="M498 316L620 316" stroke="#F8FAFC" stroke-width="8" opacity="0.7"/>
+      <path d="M447 390L571 390" stroke="#F8FAFC" stroke-width="8" opacity="0.7"/>
+      <path d="M382 332C409 312 420 304 449 299L467 390H432L382 332Z" fill="#0F172A"/>
+      <path d="M667 335C695 312 708 306 727 303L760 390H720L667 335Z" fill="#0F172A"/>
+      <rect x="472" y="355" width="90" height="120" rx="26" fill="#1E3A8A"/>
+      <circle cx="512" cy="349" r="28" fill="#F8FAFC" opacity="0.75"/>
+      <path d="M625 200C640 181 659 170 684 162C725 150 760 158 786 182C789 212 777 239 753 260L720 286L650 270L625 200Z" fill="#F8FAFC" opacity="0.95"/>
+      <path d="M700 228L783 226L800 310L710 319L700 228Z" fill="#0F172A"/>
+      <path d="M580 228L688 224L710 311L598 312L580 228Z" fill="#F8FAFC" opacity="0.96"/>
+      <path d="M616 230L652 230L669 312H630L616 230Z" fill="#DBEAFE"/>
+      <path d="M725 231L766 230L777 311H732L725 231Z" fill="#DBEAFE"/>
+      <path d="M487 412L508 462L514 503H468L471 447L487 412Z" fill="#0F172A"/>
+      <path d="M566 412L585 465L590 504H543L549 447L566 412Z" fill="#0F172A"/>
+      <path d="M447 520L494 470L520 500L503 568H455L447 520Z" fill="#111827"/>
+      <path d="M547 518L594 468L622 503L602 570H552L547 518Z" fill="#111827"/>
+    </g>
+  </g>
+
+  <!-- stage floor -->
+  <path d="M0 845L1200 845L1200 1200H0V845Z" fill="#1E293B" opacity="0.86"/>
+  <path d="M0 845L1200 845L1200 1200H0V845Z" fill="url(#panel)" opacity="0.5"/>
+  <path d="M0 845L1200 845" stroke="#0F172A" stroke-width="10"/>
+  <path d="M0 875L1200 875" stroke="#0F172A" stroke-width="4" opacity="0.7"/>
+
+  <!-- foreground silhouette -->
+  <g transform="translate(0,0)" opacity="0.92">
+    <ellipse cx="510" cy="849" rx="120" ry="40" fill="#0B1020" opacity="0.8"/>
+    <path d="M450 665C476 680 489 700 496 734L511 795H460L437 743L450 665Z" fill="#111827"/>
+    <path d="M548 648C593 670 624 696 654 768L620 812H548L523 746L548 648Z" fill="#111827"/>
+    <path d="M465 500C494 493 526 497 551 515C587 539 620 610 612 658C604 706 570 734 520 736C474 738 434 708 422 667C408 618 432 558 465 500Z" fill="#0B1020"/>
+    <path d="M496 510L535 510L575 540L579 592L535 609L491 588L480 536L496 510Z" fill="#F8FAFC" opacity="0.1"/>
+    <circle cx="512" cy="540" r="65" fill="#F1F5F9" opacity="0.06"/>
+    <path d="M516 535C540 533 560 549 571 573C583 599 563 621 531 626C499 631 465 607 459 574C453 541 479 520 516 535Z" fill="#F1F5F9" opacity="0.12"/>
+    <path d="M441 620C486 636 524 664 551 721L521 778H462L429 689L441 620Z" fill="#F8FAFC" opacity="0.06"/>
+    <rect x="445" y="670" width="94" height="118" rx="22" fill="#0B1020" opacity="0.95"/>
+    <rect x="550" y="670" width="88" height="118" rx="20" fill="#0B1020" opacity="0.95"/>
+  </g>
+
+  <!-- Dark panel with text -->
+  <g>
+    <rect x="70" y="700" width="1060" height="450" rx="18" fill="#040d1f" opacity="0.9"/>
+
+    <text x="96" y="815" fill="#F8FAFC" font-size="96" font-weight="800" letter-spacing="-2" font-family="Arial, Helvetica, sans-serif">
+      YOUR 10 P.M. EMAIL
+    </text>
+    <text x="96" y="905" fill="#F8FAFC" font-size="96" font-weight="800" letter-spacing="-2" font-family="Arial, Helvetica, sans-serif">
+      IS A <tspan fill="#E76F51">POLICY.</tspan>
+    </text>
+
+    <line x1="96" y1="941" x2="560" y2="941" stroke="#E8E8E8" stroke-width="2" opacity="0.7"/>
+
+    <text x="96" y="1011" fill="#E2E8F0" font-size="32" font-weight="500" font-family="Arial, Helvetica, sans-serif">
+      Your schedule becomes their schedule.
+    </text>
+
+    <g transform="translate(96,1052)">
+      <text x="0" y="0" fill="#F8FAFC" font-size="86" font-weight="900" font-family="Arial, Helvetica, sans-serif" letter-spacing="-3">LEGION</text>
+      <text x="8" y="30" fill="#F8FAFC" font-size="18" font-weight="700" letter-spacing="5" font-family="Arial, Helvetica, sans-serif" opacity="0.8">LEADERSHIP</text>
+      <circle cx="156" cy="10" r="12" fill="#F8FAFC"/>
+      <circle cx="170" cy="10" r="12" fill="#F8FAFC" opacity="0.6"/>
+      <path d="M156 0L166 10L156 20L146 10Z" fill="#1F2937"/>
+    </g>
+
+    <text x="745" y="1090" fill="#F8FAFC" font-size="28" font-weight="700" font-family="Arial, Helvetica, sans-serif">
+      JEFF WICKER <tspan fill="#94A3B8">|</tspan> leadwithlegion.com
+    </text>
+  </g>
+</svg>
