@@ -1,0 +1,11 @@
+{
+  "name": "legion-post-images",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "A lightweight SVG generator for social post images.",
+  "scripts": {
+    "generate": "node src/generate.js",
+    "start": "node src/generate.js"
+  }
+}
